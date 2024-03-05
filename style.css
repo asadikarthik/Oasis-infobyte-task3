@@ -1,0 +1,59 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.dashboard
+{
+    color:white;
+    background-color: #5372f4;
+    height: 70px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	color: black;
+}
+#temp-conv-btn
+{
+    color:white;
+    background-color: blue;
+}
+
+#temp-conv
+{   
+    background-color: white;
+	padding-top: 225px;
+	display: flex;
+    width:500px;
+	flex-direction: column;
+	align-items: center;
+}
+#temp-conv id
+{   
+    background-color: aqua;
+
+}
+label
+{   
+    background-color: white;
+	font-size: 1.5rem;
+}
+input
+{
+    height:50px;
+    width:400px;
+}
+button {
+    height:35px;
+	padding: 4px 7px;
+    width:100px;
+}
